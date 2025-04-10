@@ -1,0 +1,1023 @@
+nohup: ignoring input
+Training starts ...
+Finished model initialization....
+epoch: 0
+train: 9.983333333333333% test: 9.99%
+
+0 step model saved ...
+epoch: 0
+train: 71.86166666666666% test: 71.28999999999999%
+
+100 step model saved ...
+epoch: 0
+train: 82.03% test: 80.92%
+
+200 step model saved ...
+finished epoch: 0
+
+epoch: 1
+train: 85.60833333333333% test: 84.76%
+
+300 step model saved ...
+epoch: 1
+train: 84.99666666666667% test: 84.22%
+
+finished epoch: 1
+
+epoch: 2
+train: 84.69% test: 83.41%
+
+epoch: 2
+train: 82.65333333333334% test: 81.78999999999999%
+
+epoch: 2
+train: 87.34833333333333% test: 86.11999999999999%
+
+700 step model saved ...
+finished epoch: 2
+
+epoch: 3
+train: 83.64166666666667% test: 83.17999999999999%
+
+epoch: 3
+train: 88.12666666666667% test: 86.96000000000001%
+
+900 step model saved ...
+finished epoch: 3
+
+epoch: 4
+train: 88.69666666666667% test: 87.47%
+
+1000 step model saved ...
+epoch: 4
+train: 85.39333333333333% test: 84.59%
+
+finished epoch: 4
+
+5 epoch model saved ...
+
+epoch: 5
+train: 86.87333333333333% test: 85.55%
+
+epoch: 5
+train: 86.69166666666666% test: 85.28%
+
+epoch: 5
+train: 86.29333333333334% test: 85.06%
+
+finished epoch: 5
+
+epoch: 6
+train: 90.155% test: 88.39%
+
+1500 step model saved ...
+epoch: 6
+train: 89.155% test: 87.69%
+
+finished epoch: 6
+
+epoch: 7
+train: 89.72666666666666% test: 87.85%
+
+epoch: 7
+train: 87.69833333333334% test: 86.65%
+
+finished epoch: 7
+
+epoch: 8
+train: 86.19333333333333% test: 84.91%
+
+epoch: 8
+train: 90.41166666666666% test: 89.09%
+
+2000 step model saved ...
+epoch: 8
+train: 87.14666666666666% test: 85.68%
+
+finished epoch: 8
+
+epoch: 9
+train: 90.60000000000001% test: 88.92999999999999%
+
+epoch: 9
+train: 89.72333333333333% test: 88.01%
+
+finished epoch: 9
+
+10 epoch model saved ...
+
+epoch: 10
+train: 91.56833333333333% test: 89.49000000000001%
+
+2400 step model saved ...
+epoch: 10
+train: 91.37833333333333% test: 89.33%
+
+finished epoch: 10
+
+epoch: 11
+train: 86.70833333333333% test: 84.91%
+
+epoch: 11
+train: 89.99833333333333% test: 87.76%
+
+epoch: 11
+train: 90.48% test: 88.03%
+
+finished epoch: 11
+
+epoch: 12
+train: 91.31333333333333% test: 89.39%
+
+epoch: 12
+train: 91.84333333333333% test: 89.52%
+
+3000 step model saved ...
+finished epoch: 12
+
+epoch: 13
+train: 89.95% test: 88.17%
+
+epoch: 13
+train: 87.32166666666666% test: 85.87%
+
+finished epoch: 13
+
+epoch: 14
+train: 92.27333333333333% test: 90.46%
+
+3300 step model saved ...
+epoch: 14
+train: 90.14333333333333% test: 87.77000000000001%
+
+epoch: 14
+train: 92.105% test: 89.73%
+
+finished epoch: 14
+
+15 epoch model saved ...
+
+epoch: 15
+train: 91.265% test: 89.17%
+
+epoch: 15
+train: 87.62833333333333% test: 85.64%
+
+finished epoch: 15
+
+epoch: 16
+train: 88.50833333333334% test: 86.49%
+
+epoch: 16
+train: 92.10666666666667% test: 89.69%
+
+finished epoch: 16
+
+epoch: 17
+train: 86.15666666666667% test: 84.28999999999999%
+
+epoch: 17
+train: 85.78333333333333% test: 83.85000000000001%
+
+epoch: 17
+train: 88.76833333333335% test: 86.35000000000001%
+
+finished epoch: 17
+
+epoch: 18
+train: 90.03% test: 87.15%
+
+epoch: 18
+train: 88.18333333333334% test: 86.29%
+
+finished epoch: 18
+
+epoch: 19
+train: 93.37833333333333% test: 90.67%
+
+4500 step model saved ...
+epoch: 19
+train: 93.2% test: 90.51%
+
+finished epoch: 19
+
+20 epoch model saved ...
+
+epoch: 20
+train: 93.87666666666667% test: 91.21000000000001%
+
+4700 step model saved ...
+epoch: 20
+train: 93.305% test: 90.41%
+
+epoch: 20
+train: 93.62% test: 90.62%
+
+finished epoch: 20
+
+epoch: 21
+train: 89.26333333333332% test: 86.53%
+
+epoch: 21
+train: 91.375% test: 88.8%
+
+finished epoch: 21
+
+epoch: 22
+train: 92.04333333333334% test: 89.16%
+
+epoch: 22
+train: 92.66166666666666% test: 89.58%
+
+epoch: 22
+train: 93.67999999999999% test: 90.57%
+
+finished epoch: 22
+
+epoch: 23
+train: 92.71333333333334% test: 89.99000000000001%
+
+epoch: 23
+train: 90.66333333333333% test: 88.12%
+
+finished epoch: 23
+
+epoch: 24
+train: 93.76833333333333% test: 90.12%
+
+epoch: 24
+train: 93.06833333333333% test: 89.95%
+
+finished epoch: 24
+
+25 epoch model saved ...
+
+epoch: 25
+train: 80.42666666666666% test: 77.42%
+
+epoch: 25
+train: 93.28333333333333% test: 90.2%
+
+epoch: 25
+train: 94.13333333333334% test: 90.53%
+
+finished epoch: 25
+
+epoch: 26
+train: 93.89% test: 90.06%
+
+epoch: 26
+train: 88.75333333333333% test: 85.83%
+
+finished epoch: 26
+
+epoch: 27
+train: 93.22833333333334% test: 89.97%
+
+epoch: 27
+train: 95.16333333333333% test: 91.75%
+
+6500 step model saved ...
+finished epoch: 27
+
+epoch: 28
+train: 94.19166666666666% test: 90.33%
+
+epoch: 28
+train: 95.23666666666666% test: 91.55%
+
+epoch: 28
+train: 93.62166666666667% test: 89.92%
+
+finished epoch: 28
+
+epoch: 29
+train: 94.575% test: 90.27%
+
+epoch: 29
+train: 94.735% test: 90.82000000000001%
+
+finished epoch: 29
+
+30 epoch model saved ...
+
+epoch: 30
+train: 90.525% test: 86.41%
+
+epoch: 30
+train: 91.58% test: 87.22%
+
+finished epoch: 30
+
+epoch: 31
+train: 94.62833333333333% test: 90.53%
+
+epoch: 31
+train: 94.405% test: 90.58%
+
+epoch: 31
+train: 92.67333333333333% test: 88.96%
+
+finished epoch: 31
+
+epoch: 32
+train: 94.14% test: 90.29%
+
+epoch: 32
+train: 92.0% test: 88.52%
+
+finished epoch: 32
+
+epoch: 33
+train: 94.79666666666667% test: 90.86999999999999%
+
+epoch: 33
+train: 93.49666666666666% test: 89.0%
+
+finished epoch: 33
+
+epoch: 34
+train: 94.135% test: 90.07%
+
+epoch: 34
+train: 95.07666666666667% test: 90.51%
+
+epoch: 34
+train: 95.08166666666666% test: 90.23%
+
+finished epoch: 34
+
+35 epoch model saved ...
+
+epoch: 35
+train: 93.62% test: 89.28%
+
+epoch: 35
+train: 94.13166666666667% test: 89.58%
+
+finished epoch: 35
+
+epoch: 36
+train: 88.46000000000001% test: 83.93%
+
+epoch: 36
+train: 94.05% test: 89.96%
+
+finished epoch: 36
+
+epoch: 37
+train: 96.125% test: 91.3%
+
+epoch: 37
+train: 95.67833333333333% test: 90.93%
+
+epoch: 37
+train: 94.97166666666666% test: 90.23%
+
+finished epoch: 37
+
+epoch: 38
+train: 93.47% test: 89.02%
+
+epoch: 38
+train: 96.40166666666666% test: 91.36%
+
+finished epoch: 38
+
+epoch: 39
+train: 94.16333333333333% test: 89.68%
+
+epoch: 39
+train: 94.10666666666667% test: 89.96%
+
+finished epoch: 39
+
+40 epoch model saved ...
+
+epoch: 40
+train: 92.255% test: 87.83999999999999%
+
+epoch: 40
+train: 96.325% test: 90.98%
+
+epoch: 40
+train: 95.31833333333334% test: 89.82%
+
+finished epoch: 40
+
+epoch: 41
+train: 94.10333333333334% test: 89.01%
+
+epoch: 41
+train: 92.90166666666667% test: 88.03%
+
+finished epoch: 41
+
+epoch: 42
+train: 94.795% test: 89.42999999999999%
+
+epoch: 42
+train: 95.53666666666668% test: 90.05%
+
+epoch: 42
+train: 94.93166666666667% test: 89.49000000000001%
+
+finished epoch: 42
+
+epoch: 43
+train: 96.38833333333334% test: 91.09%
+
+epoch: 43
+train: 94.27833333333334% test: 89.3%
+
+finished epoch: 43
+
+epoch: 44
+train: 96.55833333333334% test: 90.92%
+
+epoch: 44
+train: 92.745% test: 88.03%
+
+finished epoch: 44
+
+45 epoch model saved ...
+
+epoch: 45
+train: 97.50666666666666% test: 91.66%
+
+epoch: 45
+train: 95.96833333333333% test: 90.49000000000001%
+
+epoch: 45
+train: 85.07333333333334% test: 79.99000000000001%
+
+finished epoch: 45
+
+epoch: 46
+train: 96.33666666666667% test: 90.98%
+
+epoch: 46
+train: 95.57% test: 89.91%
+
+finished epoch: 46
+
+epoch: 47
+train: 96.55333333333334% test: 90.81%
+
+epoch: 47
+train: 95.665% test: 90.21000000000001%
+
+finished epoch: 47
+
+epoch: 48
+train: 95.73166666666667% test: 90.0%
+
+epoch: 48
+train: 89.66666666666666% test: 84.39999999999999%
+
+epoch: 48
+train: 97.08333333333333% test: 91.23%
+
+finished epoch: 48
+
+epoch: 49
+train: 94.67833333333333% test: 89.32%
+
+epoch: 49
+train: 96.16833333333334% test: 90.64999999999999%
+
+finished epoch: 49
+
+50 epoch model saved ...
+
+epoch: 50
+train: 95.08666666666666% test: 89.46%
+
+epoch: 50
+train: 96.55% test: 90.95%
+
+finished epoch: 50
+
+epoch: 51
+train: 95.92333333333333% test: 89.88000000000001%
+
+epoch: 51
+train: 94.98666666666666% test: 89.72%
+
+epoch: 51
+train: 95.455% test: 89.35%
+
+finished epoch: 51
+
+epoch: 52
+train: 90.815% test: 85.22%
+
+epoch: 52
+train: 95.49499999999999% test: 89.73%
+
+finished epoch: 52
+
+epoch: 53
+train: 94.69833333333332% test: 89.59%
+
+epoch: 53
+train: 96.33166666666668% test: 90.49000000000001%
+
+finished epoch: 53
+
+epoch: 54
+train: 96.87% test: 91.24%
+
+epoch: 54
+train: 97.48333333333333% test: 91.31%
+
+epoch: 54
+train: 96.93833333333333% test: 91.0%
+
+finished epoch: 54
+
+55 epoch model saved ...
+
+epoch: 55
+train: 96.815% test: 91.06%
+
+epoch: 55
+train: 96.74000000000001% test: 90.52%
+
+finished epoch: 55
+
+epoch: 56
+train: 95.46166666666667% test: 90.08%
+
+epoch: 56
+train: 96.73% test: 90.41%
+
+finished epoch: 56
+
+epoch: 57
+train: 96.02000000000001% test: 90.36%
+
+epoch: 57
+train: 97.31333333333333% test: 90.99000000000001%
+
+epoch: 57
+train: 98.01166666666667% test: 91.4%
+
+finished epoch: 57
+
+epoch: 58
+train: 95.72500000000001% test: 89.71000000000001%
+
+epoch: 58
+train: 97.25166666666667% test: 91.03%
+
+finished epoch: 58
+
+epoch: 59
+train: 95.56% test: 89.57000000000001%
+
+epoch: 59
+train: 97.54666666666667% test: 91.08000000000001%
+
+finished epoch: 59
+
+60 epoch model saved ...
+
+epoch: 60
+train: 97.70666666666666% test: 90.94%
+
+epoch: 60
+train: 96.035% test: 89.85%
+
+epoch: 60
+train: 95.11333333333334% test: 88.75%
+
+finished epoch: 60
+
+epoch: 61
+train: 96.36666666666667% test: 90.3%
+
+epoch: 61
+train: 97.07166666666667% test: 90.75%
+
+finished epoch: 61
+
+epoch: 62
+train: 96.395% test: 89.98%
+
+epoch: 62
+train: 96.6% test: 90.7%
+
+epoch: 62
+train: 97.29666666666667% test: 91.24%
+
+finished epoch: 62
+
+epoch: 63
+train: 95.87833333333333% test: 89.97%
+
+epoch: 63
+train: 96.45166666666667% test: 90.36999999999999%
+
+finished epoch: 63
+
+epoch: 64
+train: 97.39% test: 91.02%
+
+epoch: 64
+train: 95.21% test: 88.99000000000001%
+
+finished epoch: 64
+
+65 epoch model saved ...
+
+epoch: 65
+train: 97.65333333333334% test: 91.23%
+
+epoch: 65
+train: 91.97166666666666% test: 85.66%
+
+epoch: 65
+train: 96.28166666666667% test: 90.07%
+
+finished epoch: 65
+
+epoch: 66
+train: 97.78666666666666% test: 91.11%
+
+epoch: 66
+train: 97.03666666666668% test: 90.78%
+
+finished epoch: 66
+
+epoch: 67
+train: 95.785% test: 89.59%
+
+epoch: 67
+train: 96.33666666666667% test: 89.72%
+
+finished epoch: 67
+
+epoch: 68
+train: 95.32833333333333% test: 89.08%
+
+epoch: 68
+train: 97.675% test: 90.89%
+
+epoch: 68
+train: 97.80666666666666% test: 91.11%
+
+finished epoch: 68
+
+epoch: 69
+train: 96.73166666666667% test: 90.49000000000001%
+
+epoch: 69
+train: 98.34166666666667% test: 91.49000000000001%
+
+finished epoch: 69
+
+70 epoch model saved ...
+
+epoch: 70
+train: 97.62666666666667% test: 90.69%
+
+epoch: 70
+train: 96.66833333333334% test: 89.99000000000001%
+
+finished epoch: 70
+
+epoch: 71
+train: 96.49% test: 89.96%
+
+epoch: 71
+train: 97.52499999999999% test: 90.58%
+
+epoch: 71
+train: 92.355% test: 85.67%
+
+finished epoch: 71
+
+epoch: 72
+train: 97.34833333333334% test: 90.28%
+
+epoch: 72
+train: 97.985% test: 91.18%
+
+finished epoch: 72
+
+epoch: 73
+train: 92.14333333333333% test: 85.72%
+
+epoch: 73
+train: 98.22999999999999% test: 91.32000000000001%
+
+finished epoch: 73
+
+epoch: 74
+train: 94.83333333333334% test: 88.01%
+
+epoch: 74
+train: 97.62666666666667% test: 90.83%
+
+epoch: 74
+train: 98.065% test: 91.36999999999999%
+
+finished epoch: 74
+
+75 epoch model saved ...
+
+epoch: 75
+train: 97.41% test: 90.67%
+
+epoch: 75
+train: 92.40333333333334% test: 85.72999999999999%
+
+finished epoch: 75
+
+epoch: 76
+train: 97.72% test: 91.13%
+
+epoch: 76
+train: 97.94500000000001% test: 91.11%
+
+finished epoch: 76
+
+epoch: 77
+train: 96.93% test: 90.2%
+
+epoch: 77
+train: 96.63333333333334% test: 90.01%
+
+epoch: 77
+train: 96.94833333333334% test: 90.23%
+
+finished epoch: 77
+
+epoch: 78
+train: 96.86166666666666% test: 90.05%
+
+epoch: 78
+train: 97.75666666666667% test: 90.71000000000001%
+
+finished epoch: 78
+
+epoch: 79
+train: 97.33166666666668% test: 90.55%
+
+epoch: 79
+train: 95.91% test: 89.33%
+
+finished epoch: 79
+
+80 epoch model saved ...
+
+epoch: 80
+train: 97.015% test: 90.12%
+
+epoch: 80
+train: 92.95% test: 89.0%
+
+epoch: 80
+train: 96.585% test: 91.13%
+
+finished epoch: 80
+
+epoch: 81
+train: 94.19% test: 88.59%
+
+epoch: 81
+train: 97.71% test: 91.73%
+
+finished epoch: 81
+
+epoch: 82
+train: 97.735% test: 91.07%
+
+epoch: 82
+train: 98.08166666666666% test: 91.35%
+
+epoch: 82
+train: 97.94333333333334% test: 91.24%
+
+finished epoch: 82
+
+epoch: 83
+train: 96.11666666666666% test: 89.67%
+
+epoch: 83
+train: 97.61833333333333% test: 90.58%
+
+finished epoch: 83
+
+epoch: 84
+train: 96.51333333333334% test: 89.64%
+
+epoch: 84
+train: 97.50999999999999% test: 90.5%
+
+finished epoch: 84
+
+85 epoch model saved ...
+
+epoch: 85
+train: 96.93% test: 89.77000000000001%
+
+epoch: 85
+train: 98.615% test: 91.75999999999999%
+
+20100 step model saved ...
+epoch: 85
+train: 98.22833333333332% test: 91.24%
+
+finished epoch: 85
+
+epoch: 86
+train: 97.765% test: 90.42999999999999%
+
+epoch: 86
+train: 98.54% test: 91.25%
+
+finished epoch: 86
+
+epoch: 87
+train: 97.66666666666667% test: 90.79%
+
+epoch: 87
+train: 97.66% test: 90.51%
+
+finished epoch: 87
+
+epoch: 88
+train: 98.39666666666666% test: 91.28%
+
+epoch: 88
+train: 97.96666666666667% test: 90.79%
+
+epoch: 88
+train: 94.21333333333334% test: 87.42999999999999%
+
+finished epoch: 88
+
+epoch: 89
+train: 97.15166666666667% test: 90.47%
+
+epoch: 89
+train: 98.60666666666667% test: 91.61%
+
+finished epoch: 89
+
+90 epoch model saved ...
+
+epoch: 90
+train: 93.985% test: 86.92%
+
+epoch: 90
+train: 96.23% test: 89.23%
+
+finished epoch: 90
+
+epoch: 91
+train: 97.36666666666667% test: 90.51%
+
+epoch: 91
+train: 97.05% test: 89.95%
+
+epoch: 91
+train: 96.91166666666666% test: 89.61%
+
+finished epoch: 91
+
+epoch: 92
+train: 97.89% test: 90.9%
+
+epoch: 92
+train: 92.09% test: 86.27%
+
+finished epoch: 92
+
+epoch: 93
+train: 97.84666666666666% test: 90.45%
+
+epoch: 93
+train: 98.07666666666667% test: 90.72%
+
+finished epoch: 93
+
+epoch: 94
+train: 97.68% test: 90.53%
+
+epoch: 94
+train: 91.83666666666667% test: 84.52%
+
+epoch: 94
+train: 95.35833333333333% test: 88.53%
+
+finished epoch: 94
+
+95 epoch model saved ...
+
+epoch: 95
+train: 96.55333333333334% test: 89.02%
+
+epoch: 95
+train: 98.61999999999999% test: 91.51%
+
+finished epoch: 95
+
+epoch: 96
+train: 98.08333333333333% test: 90.58%
+
+epoch: 96
+train: 98.245% test: 90.95%
+
+finished epoch: 96
+
+epoch: 97
+train: 98.31% test: 91.47999999999999%
+
+epoch: 97
+train: 94.63666666666667% test: 87.55%
+
+epoch: 97
+train: 95.94% test: 88.64%
+
+finished epoch: 97
+
+epoch: 98
+train: 96.67833333333333% test: 89.0%
+
+epoch: 98
+train: 97.93333333333332% test: 90.36999999999999%
+
+finished epoch: 98
+
+epoch: 99
+train: 98.29% test: 91.18%
+
+epoch: 99
+train: 98.61666666666666% test: 91.51%
+
+finished epoch: 99
+
+100 epoch model saved ...
+
+epoch: 100
+train: 97.29666666666667% test: 90.16999999999999%
+
+epoch: 100
+train: 96.43% test: 89.56%
+
+epoch: 100
+train: 96.015% test: 88.7%
+
+finished epoch: 100
+
+epoch: 101
+train: 98.39166666666667% test: 91.22%
+
+epoch: 101
+train: 99.13499999999999% test: 91.74%
+
+finished epoch: 101
+
+epoch: 102
+train: 98.44333333333334% test: 91.14%
+
+epoch: 102
+train: 98.66333333333334% test: 91.17%
+
+epoch: 102
+train: 98.2% test: 91.03999999999999%
+
+finished epoch: 102
+
+epoch: 103
+train: 98.19833333333334% test: 90.91%
+
+epoch: 103
+train: 96.30499999999999% test: 88.87%
+
+finished epoch: 103
+
+epoch: 104
+train: 96.40333333333334% test: 89.3%
+
+epoch: 104
+train: 95.655% test: 88.62%
+
+finished epoch: 104
+
+105 epoch model saved ...
+
+epoch: 105
+train: 95.365% test: 87.92%
+
+epoch: 105
+train: 97.855% test: 90.22%
+
+epoch: 105
+train: 99.07666666666667% test: 91.57%
+
+finished epoch: 105
+
