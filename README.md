@@ -16,17 +16,17 @@
 ```
 nohup python -u train.py --seed 0 --model resnet18 > exp0.log 2>&1 &
 ```
-
+<b>注意</b>:为了节省空间，数据集和保存的模型不予存储，按照流程可以获取相应文件
 
 ## 分组实验
 
 | code | best_acc | model    | augmentation |
 |------|----------|----------|--------------|
-| 0    |          | ResNet18 | False        |
-| 1    |          | ResNet18 | True         |
-| 2    |          | ResNet34 | False        |
-| 3    |          | VGG11_BN | False        |
-| 4    |          | ResNet50 | False        |
+| 0    | 91.97%   | ResNet18 | False        |
+| 1    | 91.76%   | ResNet18 | True         |
+| 2    | 92.13%   | ResNet34 | False        |
+| 3    | 93.05%   | VGG11_BN | False        |
+| 4    | 92.17%   | ResNet50 | False        |
 
 ## 评估结果
 利用test.py来对结果进行评测，结果默认保存在result文件夹下，包括每5个epoch记录的模型和测试集正确率最高模型
@@ -34,3 +34,4 @@ nohup python -u train.py --seed 0 --model resnet18 > exp0.log 2>&1 &
 ```
 python test.py --seed 0 --model resnet18
 ```
+在评估结果之后，可以使用drawLine.py绘制曲线图，修改exp字典来选择目标实验，只有执行过test.py的实验才能绘制图线
