@@ -1,0 +1,69 @@
+Training starts ...
+Finished model initialization....
+epoch: 0	train: 87.51500%	test: 83.60000%
+0 step model saved ...
+epoch: 1	train: 91.93833%	test: 86.54000%
+1 step model saved ...
+epoch: 2	train: 93.30667%	test: 86.76000%
+2 step model saved ...
+epoch: 3	train: 95.31167%	test: 87.09000%
+3 step model saved ...
+epoch: 4	train: 96.56667%	test: 87.31000%
+4 step model saved ...
+epoch: 5	train: 96.63500%	test: 86.65000%
+epoch: 6	train: 96.98667%	test: 87.26000%
+epoch: 7	train: 97.71333%	test: 87.57000%
+7 step model saved ...
+epoch: 8	train: 97.44833%	test: 86.78000%
+epoch: 9	train: 98.55000%	test: 87.65000%
+9 step model saved ...
+epoch: 10	train: 98.75000%	test: 87.83000%
+10 step model saved ...
+epoch: 11	train: 98.53667%	test: 87.39000%
+epoch: 12	train: 98.04000%	test: 86.39000%
+epoch: 13	train: 98.73500%	test: 87.81000%
+epoch: 14	train: 98.66500%	test: 87.52000%
+epoch: 15	train: 99.14000%	test: 87.88000%
+15 step model saved ...
+epoch: 16	train: 99.32667%	test: 87.97000%
+16 step model saved ...
+epoch: 17	train: 99.17333%	test: 87.94000%
+epoch: 18	train: 98.97000%	test: 87.37000%
+epoch: 19	train: 99.26167%	test: 88.10000%
+19 step model saved ...
+epoch: 20	train: 99.40167%	test: 88.50000%
+20 step model saved ...
+epoch: 21	train: 99.23167%	test: 87.95000%
+epoch: 22	train: 99.25667%	test: 88.01000%
+epoch: 23	train: 99.51667%	test: 88.10000%
+epoch: 24	train: 99.00000%	test: 87.47000%
+epoch: 25	train: 99.23500%	test: 87.92000%
+epoch: 26	train: 99.48000%	test: 88.45000%
+epoch: 27	train: 99.40500%	test: 88.05000%
+epoch: 28	train: 99.40667%	test: 87.77000%
+epoch: 29	train: 99.34167%	test: 88.04000%
+epoch: 30	train: 99.44000%	test: 88.15000%
+epoch: 31	train: 99.57000%	test: 87.95000%
+epoch: 32	train: 99.59500%	test: 88.55000%
+32 step model saved ...
+epoch: 33	train: 99.58833%	test: 88.20000%
+epoch: 34	train: 99.43500%	test: 88.28000%
+epoch: 35	train: 99.71333%	test: 88.39000%
+epoch: 36	train: 99.54000%	test: 87.74000%
+epoch: 37	train: 99.25667%	test: 87.70000%
+epoch: 38	train: 99.56833%	test: 88.11000%
+epoch: 39	train: 99.44667%	test: 88.10000%
+epoch: 40	train: 99.48167%	test: 88.28000%
+epoch: 41	train: 99.70333%	test: 88.72000%
+41 step model saved ...
+epoch: 42	train: 99.74000%	test: 88.85000%
+42 step model saved ...
+epoch: 43	train: 99.51167%	test: 88.24000%
+epoch: 44	train: 99.68500%	test: 88.80000%
+epoch: 45	train: 99.61500%	test: 88.40000%
+epoch: 46	train: 99.61167%	test: 88.66000%
+epoch: 47	train: 99.60000%	test: 88.44000%
+epoch: 48	train: 99.60333%	test: 88.37000%
+epoch: 49	train: 99.88667%	test: 88.83000%
+Finished training
+best_test_acc:88.85000%

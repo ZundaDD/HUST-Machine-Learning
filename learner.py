@@ -2,8 +2,10 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 import os
+import pandas as pd
 from torchvision import transforms as T
-from data import EasyDataset, get_model
+from data import EasyDataset
+from model import get_model
 import warnings
 warnings.filterwarnings(action='ignore')
 
@@ -14,12 +16,11 @@ class Learner(object):
         self.trans = T.Compose([
             T.RandomHorizontalFlip(),
             T.RandomVerticalFlip(),
+            T.Normalize((0.1307,), (0.3081,))
             ])
 
         self.batch_size = args.batch_size
         self.device = torch.device(args.device)
-        self.log_dir = args.log_dir
-        os.makedirs(self.log_dir, exist_ok=True)
             
         self.train_dataset = EasyDataset(os.path.join(args.data_dir,"train"))
         self.test_dataset = EasyDataset(os.path.join(args.data_dir,"test"))
@@ -41,12 +42,15 @@ class Learner(object):
             pin_memory=True,
         )
 
-        self.criterion = nn.CrossEntropyLoss(reduction='none')
-        self.best_acc = 0
         self.n_classes = 10
+        self.criterion = nn.CrossEntropyLoss(reduction='none')
 
-        self.model, self.reshape = get_model(args.model)
+        self.log_dir = os.path.join(args.log_dir, f"{args.index}")
+        os.makedirs(self.log_dir, exist_ok=True)
+        self.best_acc = 0
+        self.acc = {"train":[], "test":[]}
 
+        self.model, self.reshape = get_model(args.model, args.pretrained)
         self.model = self.model.to(self.device)
 
         self.optimizer = torch.optim.Adam(
@@ -54,6 +58,7 @@ class Learner(object):
                 lr=args.lr,
                 weight_decay=args.weight_decay,
             )
+
         print('Finished model initialization....')
 
 
@@ -65,8 +70,7 @@ class Learner(object):
 
         for data, label, index in data_loader:
             label = torch.tensor(label).to(self.device)
-            data = data.to(self.device)
-            data = self.reshape(data)
+            data = self.reshape(data).to(self.device)
 
             with torch.no_grad():
                 logit = model(data)
@@ -76,82 +80,54 @@ class Learner(object):
                 label_ls = torch.cat((label_ls, label), 0)
 
         model.train()
-        correct = 0
-        for i in range(pred_ls.shape[0]):
-            if pred_ls[i] == label_ls[i]:
-                correct += 1
+        correct = (pred_ls == label_ls).sum().item()
         return correct / len(data_loader.dataset) * 100
     
-    def save_best(self, step):
-        os.makedirs(os.path.join("result", f"{self.args.seed}"), exist_ok=True)
-        model_path = os.path.join("result", f"{self.args.seed}","model_best.pt")
+    def save_best(self, epoch):
+        model_path = os.path.join(self.log_dir, f"{self.args.seed}_model_best.pt")
         state_dict = {
-            'steps': step,
+            'epoch': epoch,
             'state_dict': self.model.state_dict(),
             'optimizer': self.optimizer.state_dict(),
         }
         with open(model_path, "wb") as f:
             torch.save(state_dict, f)
-        print(f'{step} step model saved ...')
+        print(f'{epoch} step model saved ...')
 
-    def log_model(self, epoch):
-        model_dir = os.path.join("result", f"{self.args.seed}")
-        os.makedirs(model_dir, exist_ok=True)
-        torch.save({
-            'state_dict': self.model.state_dict(),
-            'optimizer': self.optimizer.state_dict(),
-        }, os.path.join(model_dir, f'model_{epoch}.pth'))
-        print(f'{epoch} epoch model saved ...')
-        print('')
-
-    def calculate_acc(self, step, epoch):
+    def board_acc(self, epoch):
         train_acc = self.evaluate(self.model, self.train_loader)
         test_acc = self.evaluate(self.model, self.test_loader)
 
-        print(f'epoch: {epoch}')
-        print(f'train: {train_acc}% test: {test_acc}%')
-        print('')
+        print(f'epoch: {epoch}\ttrain: {train_acc:.5f}%\ttest: {test_acc:.5f}%')
+        self.acc["train"].append(train_acc)
+        self.acc["test"].append(test_acc)
 
         if test_acc >= self.best_acc:
             self.best_acc = test_acc
-            self.save_best(step)
-
+            self.save_best(epoch)
 
     def train(self, args):
-        train_iter = iter(self.train_loader)
-        train_num = len(self.train_dataset)
-        epoch, cnt = 0, 0
 
-        for step in range(args.num_steps):
-            try:
-                data, label, index = next(train_iter)
-            except:
-                train_iter = iter(self.train_loader)
-                data, label, index = next(train_iter)
+        for epoch in range(args.epochs):
+            for data, label, index in self.train_loader:
 
-            data = data.to(self.device)
-            data = self.reshape(data)
-            if args.augment:
-                data = self.trans(data)
-            label = torch.tensor(label)
-            label = label.to(self.device)
+                data = self.reshape(data).to(self.device)
+                if args.augment:
+                    data = self.trans(data)
+                label = torch.tensor(label).to(self.device)
 
-            logit = self.model(data)
-            loss_update = self.criterion(logit, label)
-            loss = loss_update.mean()
+                logit = self.model(data)
+                loss_update = self.criterion(logit, label)
+                loss = loss_update.mean()
 
-            self.optimizer.zero_grad()
-            loss.backward()
-            self.optimizer.step()
+                self.optimizer.zero_grad()
+                loss.backward()
+                self.optimizer.step()
 
-            if step % args.calculate_freq == 0:
-                self.calculate_acc(step, epoch)
+            self.board_acc(epoch)
 
-            cnt += len(index)
-            if cnt == train_num:
-                print(f'finished epoch: {epoch}')
-                print('')
-                epoch += 1
-                if epoch % args.log_freq == 0:
-                    self.log_model(epoch)
-                cnt = 0
+        print('Finished training')
+        print(f'best_test_acc:{self.best_acc:.5f}%')
+
+        df = pd.DataFrame(self.acc)
+        df.to_csv(os.path.join(self.log_dir, f"{self.args.seed}_result.csv"))

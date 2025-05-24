@@ -9,6 +9,7 @@ from learner import Learner
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # editable
+    parser.add_argument('--index', type=int, default=0)
     parser.add_argument("--model", default='resnet18', type=str)
     parser.add_argument("--augment", action='store_true')
     parser.add_argument("--seed", type=int, default=0)
@@ -17,20 +18,29 @@ if __name__ == '__main__':
     parser.add_argument("--lr", default=1e-3, type=float)
     parser.add_argument("--weight_decay", default=0.0, type=float)
 
+    parser.add_argument("--pretrained", action='store_true')
+
     # default
     parser.add_argument("--num_workers", default=16, type=int)
     parser.add_argument("--device", default='cuda', type=str)
-    parser.add_argument("--num_steps", default= 25000, type=int)
+    parser.add_argument("--epochs", default= 50, type=int)
 
     # environment
     parser.add_argument("--log_dir", default='./result', type=str)
-    parser.add_argument("--log_freq", default=5, type=int)
     parser.add_argument("--data_dir", default='./dataset', type=str)
-    parser.add_argument("--calculate_freq", default=100, type=int)
 
     args = parser.parse_args()
 
-    random.seed(args.seed)
+    random_seed = args.seed
+    torch.manual_seed(random_seed)
+    torch.cuda.manual_seed(random_seed)
+    torch.cuda.manual_seed_all(random_seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+    np.random.seed(random_seed)
+    random.seed(random_seed)
+
+
     print('Training starts ...')
     learner = Learner(args)
     learner.train(args)

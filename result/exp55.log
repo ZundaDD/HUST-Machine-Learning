@@ -1,0 +1,68 @@
+Training starts ...
+Finished model initialization....
+epoch: 0	train: 25.80833%	test: 25.05000%
+0 step model saved ...
+epoch: 1	train: 32.49500%	test: 31.97000%
+1 step model saved ...
+epoch: 2	train: 36.25333%	test: 35.93000%
+2 step model saved ...
+epoch: 3	train: 34.89333%	test: 34.32000%
+epoch: 4	train: 32.83833%	test: 32.36000%
+epoch: 5	train: 37.41500%	test: 37.26000%
+5 step model saved ...
+epoch: 6	train: 36.32833%	test: 35.92000%
+epoch: 7	train: 41.89667%	test: 40.84000%
+7 step model saved ...
+epoch: 8	train: 31.10167%	test: 30.64000%
+epoch: 9	train: 34.73000%	test: 33.62000%
+epoch: 10	train: 46.11833%	test: 45.85000%
+10 step model saved ...
+epoch: 11	train: 44.57833%	test: 44.22000%
+epoch: 12	train: 42.92833%	test: 42.65000%
+epoch: 13	train: 41.53833%	test: 41.31000%
+epoch: 14	train: 47.93333%	test: 46.79000%
+14 step model saved ...
+epoch: 15	train: 42.43500%	test: 41.91000%
+epoch: 16	train: 48.51000%	test: 47.76000%
+16 step model saved ...
+epoch: 17	train: 50.43833%	test: 48.83000%
+17 step model saved ...
+epoch: 18	train: 53.06167%	test: 52.45000%
+18 step model saved ...
+epoch: 19	train: 48.95333%	test: 48.12000%
+epoch: 20	train: 55.46500%	test: 55.22000%
+20 step model saved ...
+epoch: 21	train: 54.36000%	test: 54.15000%
+epoch: 22	train: 47.05667%	test: 46.78000%
+epoch: 23	train: 56.67667%	test: 56.17000%
+23 step model saved ...
+epoch: 24	train: 55.18500%	test: 54.02000%
+epoch: 25	train: 58.45833%	test: 57.34000%
+25 step model saved ...
+epoch: 26	train: 47.44333%	test: 47.01000%
+epoch: 27	train: 53.17167%	test: 52.63000%
+epoch: 28	train: 55.07000%	test: 54.30000%
+epoch: 29	train: 49.15167%	test: 48.61000%
+epoch: 30	train: 48.16667%	test: 48.15000%
+epoch: 31	train: 58.87833%	test: 58.14000%
+31 step model saved ...
+epoch: 32	train: 41.38667%	test: 40.62000%
+epoch: 33	train: 51.33667%	test: 50.76000%
+epoch: 34	train: 54.00833%	test: 52.96000%
+epoch: 35	train: 45.92000%	test: 44.91000%
+epoch: 36	train: 44.47000%	test: 43.52000%
+epoch: 37	train: 53.26000%	test: 52.53000%
+epoch: 38	train: 48.56667%	test: 47.94000%
+epoch: 39	train: 56.30333%	test: 55.37000%
+epoch: 40	train: 56.04667%	test: 55.32000%
+epoch: 41	train: 54.77500%	test: 54.31000%
+epoch: 42	train: 49.40667%	test: 48.72000%
+epoch: 43	train: 53.03333%	test: 52.23000%
+epoch: 44	train: 48.14500%	test: 47.09000%
+epoch: 45	train: 47.11500%	test: 46.23000%
+epoch: 46	train: 48.73167%	test: 47.54000%
+epoch: 47	train: 44.10500%	test: 43.18000%
+epoch: 48	train: 47.12833%	test: 46.35000%
+epoch: 49	train: 48.42833%	test: 47.44000%
+Finished training
+best_test_acc:58.14000%

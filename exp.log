@@ -1,0 +1,242 @@
+nohup: ignoring input
+Total number of jobs = 80
+-------------------------------------
+0                     nohup python -u train.py --index 0 --seed 0 --model CNN --batch_size 64 --lr 0.001 > result/exp0.log 2>&1
+-------------------------------------
+-------------------------------------
+1                     nohup python -u train.py --index 1 --seed 0 --model CNN --batch_size 64 --lr 0.001 --augment > result/exp1.log 2>&1
+-------------------------------------
+-------------------------------------
+2                     nohup python -u train.py --index 2 --seed 0 --model CNN --batch_size 64 --lr 0.001 --pretrained > result/exp2.log 2>&1
+-------------------------------------
+-------------------------------------
+3                     nohup python -u train.py --index 3 --seed 0 --model CNN --batch_size 64 --lr 0.001 --pretrained --augment > result/exp3.log 2>&1
+-------------------------------------
+-------------------------------------
+4                     nohup python -u train.py --index 4 --seed 0 --model CNN --batch_size 64 --lr 0.0001 > result/exp4.log 2>&1
+-------------------------------------
+-------------------------------------
+5                     nohup python -u train.py --index 5 --seed 0 --model CNN --batch_size 64 --lr 0.0001 --augment > result/exp5.log 2>&1
+-------------------------------------
+-------------------------------------
+6                     nohup python -u train.py --index 6 --seed 0 --model CNN --batch_size 64 --lr 0.0001 --pretrained > result/exp6.log 2>&1
+-------------------------------------
+-------------------------------------
+7                     nohup python -u train.py --index 7 --seed 0 --model CNN --batch_size 64 --lr 0.0001 --pretrained --augment > result/exp7.log 2>&1
+-------------------------------------
+-------------------------------------
+8                     nohup python -u train.py --index 8 --seed 0 --model CNN --batch_size 256 --lr 0.001 > result/exp8.log 2>&1
+-------------------------------------
+-------------------------------------
+9                     nohup python -u train.py --index 9 --seed 0 --model CNN --batch_size 256 --lr 0.001 --augment > result/exp9.log 2>&1
+-------------------------------------
+-------------------------------------
+10                     nohup python -u train.py --index 10 --seed 0 --model CNN --batch_size 256 --lr 0.001 --pretrained > result/exp10.log 2>&1
+-------------------------------------
+-------------------------------------
+11                     nohup python -u train.py --index 11 --seed 0 --model CNN --batch_size 256 --lr 0.001 --pretrained --augment > result/exp11.log 2>&1
+-------------------------------------
+-------------------------------------
+12                     nohup python -u train.py --index 12 --seed 0 --model CNN --batch_size 256 --lr 0.0001 > result/exp12.log 2>&1
+-------------------------------------
+-------------------------------------
+13                     nohup python -u train.py --index 13 --seed 0 --model CNN --batch_size 256 --lr 0.0001 --augment > result/exp13.log 2>&1
+-------------------------------------
+-------------------------------------
+14                     nohup python -u train.py --index 14 --seed 0 --model CNN --batch_size 256 --lr 0.0001 --pretrained > result/exp14.log 2>&1
+-------------------------------------
+-------------------------------------
+15                     nohup python -u train.py --index 15 --seed 0 --model CNN --batch_size 256 --lr 0.0001 --pretrained --augment > result/exp15.log 2>&1
+-------------------------------------
+-------------------------------------
+16                     nohup python -u train.py --index 16 --seed 0 --model resnet18 --batch_size 64 --lr 0.001 > result/exp16.log 2>&1
+-------------------------------------
+-------------------------------------
+17                     nohup python -u train.py --index 17 --seed 0 --model resnet18 --batch_size 64 --lr 0.001 --augment > result/exp17.log 2>&1
+-------------------------------------
+-------------------------------------
+18                     nohup python -u train.py --index 18 --seed 0 --model resnet18 --batch_size 64 --lr 0.001 --pretrained > result/exp18.log 2>&1
+-------------------------------------
+-------------------------------------
+19                     nohup python -u train.py --index 19 --seed 0 --model resnet18 --batch_size 64 --lr 0.001 --pretrained --augment > result/exp19.log 2>&1
+-------------------------------------
+-------------------------------------
+20                     nohup python -u train.py --index 20 --seed 0 --model resnet18 --batch_size 64 --lr 0.0001 > result/exp20.log 2>&1
+-------------------------------------
+-------------------------------------
+21                     nohup python -u train.py --index 21 --seed 0 --model resnet18 --batch_size 64 --lr 0.0001 --augment > result/exp21.log 2>&1
+-------------------------------------
+-------------------------------------
+22                     nohup python -u train.py --index 22 --seed 0 --model resnet18 --batch_size 64 --lr 0.0001 --pretrained > result/exp22.log 2>&1
+-------------------------------------
+-------------------------------------
+23                     nohup python -u train.py --index 23 --seed 0 --model resnet18 --batch_size 64 --lr 0.0001 --pretrained --augment > result/exp23.log 2>&1
+-------------------------------------
+-------------------------------------
+24                     nohup python -u train.py --index 24 --seed 0 --model resnet18 --batch_size 256 --lr 0.001 > result/exp24.log 2>&1
+-------------------------------------
+-------------------------------------
+25                     nohup python -u train.py --index 25 --seed 0 --model resnet18 --batch_size 256 --lr 0.001 --augment > result/exp25.log 2>&1
+-------------------------------------
+-------------------------------------
+26                     nohup python -u train.py --index 26 --seed 0 --model resnet18 --batch_size 256 --lr 0.001 --pretrained > result/exp26.log 2>&1
+-------------------------------------
+-------------------------------------
+27                     nohup python -u train.py --index 27 --seed 0 --model resnet18 --batch_size 256 --lr 0.001 --pretrained --augment > result/exp27.log 2>&1
+-------------------------------------
+-------------------------------------
+28                     nohup python -u train.py --index 28 --seed 0 --model resnet18 --batch_size 256 --lr 0.0001 > result/exp28.log 2>&1
+-------------------------------------
+-------------------------------------
+29                     nohup python -u train.py --index 29 --seed 0 --model resnet18 --batch_size 256 --lr 0.0001 --augment > result/exp29.log 2>&1
+-------------------------------------
+-------------------------------------
+30                     nohup python -u train.py --index 30 --seed 0 --model resnet18 --batch_size 256 --lr 0.0001 --pretrained > result/exp30.log 2>&1
+-------------------------------------
+-------------------------------------
+31                     nohup python -u train.py --index 31 --seed 0 --model resnet18 --batch_size 256 --lr 0.0001 --pretrained --augment > result/exp31.log 2>&1
+-------------------------------------
+-------------------------------------
+32                     nohup python -u train.py --index 32 --seed 0 --model resnet34 --batch_size 64 --lr 0.001 > result/exp32.log 2>&1
+-------------------------------------
+-------------------------------------
+33                     nohup python -u train.py --index 33 --seed 0 --model resnet34 --batch_size 64 --lr 0.001 --augment > result/exp33.log 2>&1
+-------------------------------------
+-------------------------------------
+34                     nohup python -u train.py --index 34 --seed 0 --model resnet34 --batch_size 64 --lr 0.001 --pretrained > result/exp34.log 2>&1
+-------------------------------------
+-------------------------------------
+35                     nohup python -u train.py --index 35 --seed 0 --model resnet34 --batch_size 64 --lr 0.001 --pretrained --augment > result/exp35.log 2>&1
+-------------------------------------
+-------------------------------------
+36                     nohup python -u train.py --index 36 --seed 0 --model resnet34 --batch_size 64 --lr 0.0001 > result/exp36.log 2>&1
+-------------------------------------
+-------------------------------------
+37                     nohup python -u train.py --index 37 --seed 0 --model resnet34 --batch_size 64 --lr 0.0001 --augment > result/exp37.log 2>&1
+-------------------------------------
+-------------------------------------
+38                     nohup python -u train.py --index 38 --seed 0 --model resnet34 --batch_size 64 --lr 0.0001 --pretrained > result/exp38.log 2>&1
+-------------------------------------
+-------------------------------------
+39                     nohup python -u train.py --index 39 --seed 0 --model resnet34 --batch_size 64 --lr 0.0001 --pretrained --augment > result/exp39.log 2>&1
+-------------------------------------
+-------------------------------------
+40                     nohup python -u train.py --index 40 --seed 0 --model resnet34 --batch_size 256 --lr 0.001 > result/exp40.log 2>&1
+-------------------------------------
+-------------------------------------
+41                     nohup python -u train.py --index 41 --seed 0 --model resnet34 --batch_size 256 --lr 0.001 --augment > result/exp41.log 2>&1
+-------------------------------------
+-------------------------------------
+42                     nohup python -u train.py --index 42 --seed 0 --model resnet34 --batch_size 256 --lr 0.001 --pretrained > result/exp42.log 2>&1
+-------------------------------------
+-------------------------------------
+43                     nohup python -u train.py --index 43 --seed 0 --model resnet34 --batch_size 256 --lr 0.001 --pretrained --augment > result/exp43.log 2>&1
+-------------------------------------
+-------------------------------------
+44                     nohup python -u train.py --index 44 --seed 0 --model resnet34 --batch_size 256 --lr 0.0001 > result/exp44.log 2>&1
+-------------------------------------
+-------------------------------------
+45                     nohup python -u train.py --index 45 --seed 0 --model resnet34 --batch_size 256 --lr 0.0001 --augment > result/exp45.log 2>&1
+-------------------------------------
+-------------------------------------
+46                     nohup python -u train.py --index 46 --seed 0 --model resnet34 --batch_size 256 --lr 0.0001 --pretrained > result/exp46.log 2>&1
+-------------------------------------
+-------------------------------------
+47                     nohup python -u train.py --index 47 --seed 0 --model resnet34 --batch_size 256 --lr 0.0001 --pretrained --augment > result/exp47.log 2>&1
+-------------------------------------
+-------------------------------------
+48                     nohup python -u train.py --index 48 --seed 0 --model resnet50 --batch_size 64 --lr 0.001 > result/exp48.log 2>&1
+-------------------------------------
+-------------------------------------
+49                     nohup python -u train.py --index 49 --seed 0 --model resnet50 --batch_size 64 --lr 0.001 --augment > result/exp49.log 2>&1
+-------------------------------------
+-------------------------------------
+50                     nohup python -u train.py --index 50 --seed 0 --model resnet50 --batch_size 64 --lr 0.001 --pretrained > result/exp50.log 2>&1
+-------------------------------------
+-------------------------------------
+51                     nohup python -u train.py --index 51 --seed 0 --model resnet50 --batch_size 64 --lr 0.001 --pretrained --augment > result/exp51.log 2>&1
+-------------------------------------
+-------------------------------------
+52                     nohup python -u train.py --index 52 --seed 0 --model resnet50 --batch_size 64 --lr 0.0001 > result/exp52.log 2>&1
+-------------------------------------
+-------------------------------------
+53                     nohup python -u train.py --index 53 --seed 0 --model resnet50 --batch_size 64 --lr 0.0001 --augment > result/exp53.log 2>&1
+-------------------------------------
+-------------------------------------
+54                     nohup python -u train.py --index 54 --seed 0 --model resnet50 --batch_size 64 --lr 0.0001 --pretrained > result/exp54.log 2>&1
+-------------------------------------
+-------------------------------------
+55                     nohup python -u train.py --index 55 --seed 0 --model resnet50 --batch_size 64 --lr 0.0001 --pretrained --augment > result/exp55.log 2>&1
+-------------------------------------
+-------------------------------------
+56                     nohup python -u train.py --index 56 --seed 0 --model resnet50 --batch_size 256 --lr 0.001 > result/exp56.log 2>&1
+-------------------------------------
+-------------------------------------
+57                     nohup python -u train.py --index 57 --seed 0 --model resnet50 --batch_size 256 --lr 0.001 --augment > result/exp57.log 2>&1
+-------------------------------------
+-------------------------------------
+58                     nohup python -u train.py --index 58 --seed 0 --model resnet50 --batch_size 256 --lr 0.001 --pretrained > result/exp58.log 2>&1
+-------------------------------------
+-------------------------------------
+59                     nohup python -u train.py --index 59 --seed 0 --model resnet50 --batch_size 256 --lr 0.001 --pretrained --augment > result/exp59.log 2>&1
+-------------------------------------
+-------------------------------------
+60                     nohup python -u train.py --index 60 --seed 0 --model resnet50 --batch_size 256 --lr 0.0001 > result/exp60.log 2>&1
+-------------------------------------
+-------------------------------------
+61                     nohup python -u train.py --index 61 --seed 0 --model resnet50 --batch_size 256 --lr 0.0001 --augment > result/exp61.log 2>&1
+-------------------------------------
+-------------------------------------
+62                     nohup python -u train.py --index 62 --seed 0 --model resnet50 --batch_size 256 --lr 0.0001 --pretrained > result/exp62.log 2>&1
+-------------------------------------
+-------------------------------------
+63                     nohup python -u train.py --index 63 --seed 0 --model resnet50 --batch_size 256 --lr 0.0001 --pretrained --augment > result/exp63.log 2>&1
+-------------------------------------
+-------------------------------------
+64                     nohup python -u train.py --index 64 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.001 > result/exp64.log 2>&1
+-------------------------------------
+-------------------------------------
+65                     nohup python -u train.py --index 65 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.001 --augment > result/exp65.log 2>&1
+-------------------------------------
+-------------------------------------
+66                     nohup python -u train.py --index 66 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.001 --pretrained > result/exp66.log 2>&1
+-------------------------------------
+-------------------------------------
+67                     nohup python -u train.py --index 67 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.001 --pretrained --augment > result/exp67.log 2>&1
+-------------------------------------
+-------------------------------------
+68                     nohup python -u train.py --index 68 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.0001 > result/exp68.log 2>&1
+-------------------------------------
+-------------------------------------
+69                     nohup python -u train.py --index 69 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.0001 --augment > result/exp69.log 2>&1
+-------------------------------------
+-------------------------------------
+70                     nohup python -u train.py --index 70 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.0001 --pretrained > result/exp70.log 2>&1
+-------------------------------------
+-------------------------------------
+71                     nohup python -u train.py --index 71 --seed 0 --model vgg11_bn --batch_size 64 --lr 0.0001 --pretrained --augment > result/exp71.log 2>&1
+-------------------------------------
+-------------------------------------
+72                     nohup python -u train.py --index 72 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.001 > result/exp72.log 2>&1
+-------------------------------------
+-------------------------------------
+73                     nohup python -u train.py --index 73 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.001 --augment > result/exp73.log 2>&1
+-------------------------------------
+-------------------------------------
+74                     nohup python -u train.py --index 74 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.001 --pretrained > result/exp74.log 2>&1
+-------------------------------------
+-------------------------------------
+75                     nohup python -u train.py --index 75 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.001 --pretrained --augment > result/exp75.log 2>&1
+-------------------------------------
+-------------------------------------
+76                     nohup python -u train.py --index 76 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.0001 > result/exp76.log 2>&1
+-------------------------------------
+-------------------------------------
+77                     nohup python -u train.py --index 77 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.0001 --augment > result/exp77.log 2>&1
+-------------------------------------
+-------------------------------------
+78                     nohup python -u train.py --index 78 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.0001 --pretrained > result/exp78.log 2>&1
+-------------------------------------
+-------------------------------------
+79                     nohup python -u train.py --index 79 --seed 0 --model vgg11_bn --batch_size 256 --lr 0.0001 --pretrained --augment > result/exp79.log 2>&1
+-------------------------------------
